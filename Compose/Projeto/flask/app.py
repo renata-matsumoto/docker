@@ -29,7 +29,7 @@ def inserthost():
    mysql.connection.commit()
    cur.close()
 
-   return username
+   return "Usuário inserido: " + username
 
 
 if __name__ == "__main__":
